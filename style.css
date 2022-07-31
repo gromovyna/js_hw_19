@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(102, 170, 173);
+    justify-content: space-between;
+}
+
+.orders {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+}
+
+.order {
+    background-color: rgb(205, 226, 43);
+    border-radius: 50%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
